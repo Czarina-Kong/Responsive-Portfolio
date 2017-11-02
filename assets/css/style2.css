@@ -391,28 +391,43 @@ media queries*/
 
 /*Sidebar heading and logos*/
 	.sidebar{
+		float: none;
 		width:630px;
+		height: 200px;
 		padding: 30px;
-		position: relative;
+		position: static;
+/*		overflow: auto;*/
 	}
 
 	.logoleft{
-		width: 10%;
+		width: 15%;
 		height: auto;
-		position: relative;
+		position: absolute;
+		top:0;
+		left: 0;
+/*		display: inline-block;*/
+/*		padding: 20px;*/
+/*		float: left;*/
 	}
 
 	.logomiddle{
-		width: 10%;
+		width: 15%;
 		height: auto;
-		position: relative;
+		position: absolute;
+		top: 0;
+		right: 68%;
+		/*display: inline-block;*/
+/*		padding: 20px;*/
 	}
 
 	.logoright{
-		padding: 0;
-		width: 10%;
+		width: 14%;
 		height: auto;
-		position: relative;
+		position: absolute;
+		top: 1px;
+		right: 50%;
+/*		display: inline-block;*/
+/*		padding: 20px;*/
 	}
 }
 
@@ -421,14 +436,14 @@ media queries*/
 /*		border-style: solid;
 		border-color: red;
 		border-width: 2px;*/
-		width: 640px;
+		width: 100%;
 		background-color: #ffffff;
 	}
 
 	/*header content area*/
 	.headercontent{
 		position: relative;
-		width: 640px;
+		width: 100%;
 		height: auto;
 	}
 
@@ -448,17 +463,18 @@ media queries*/
 		text-align: center;
 	}
 	li{
-		padding: 40px;
+		padding: 20px;
 	}
+
 /*body container*/
 	.body{
-		width: 600px;
-		padding: 10px;
-		margin: 10px;
+		width: 480px;
+		padding: 30px;
+		margin: 30px;
 		float: none;
 	}
 
-	/*Index photo*/
+/*Index photo*/
 	.biopic{
 		float: left;
 		width: 100%;
@@ -466,10 +482,36 @@ media queries*/
 		margin-bottom: 20px;
 	}
 
+/*portfolio*/
+	.portfoliolink{
+		display: inline-block;
+		width:100%;
+		height:auto;
+		margin-bottom:30px;
+		position: relative;
+		float: left;
+	}
+
+	.portfoliopic{
+		width: 100%;
+		height: auto;
+	}
+
+	.portfoliodescription{
+		background-color: #4aaaa5;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		position: absolute;
+		bottom: 30px;
+		width: 100%;
+	}
+
+/*side bar*/
 	.sidebar{
-		width:600;
-		padding: 10px;
-		margin: 10px;
+		width: 480px;
+		padding: 30px;
+		margin: 30px;
 	}
 	
 }
